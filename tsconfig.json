@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["esnext", "dom"],
+    "allowJs": true,
+    "outDir": "dist",
+    "rootDir": "./",
+    "removeComments": true,
+
+    "strict": true,
+    "noImplicitAny": true,
+
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["src/*"]
+    },
+    "esModuleInterop": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_module", "dist", "coverage"],
+  "include": ["src/**/*.ts"]
+}
